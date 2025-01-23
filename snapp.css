@@ -1,0 +1,647 @@
+body , *{
+    font-family: Shabnam;
+}
+body{
+    margin: 0px;
+}
+.navbar .img{
+    max-width: 90px;
+    max-height: 32px;
+    padding-right: 60px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: -15px;
+}
+.navbar ul li{
+    margin-left: 25px;
+    font-size: 14px;
+    color: #3F3F3F;
+    cursor: pointer;
+}
+.navbar ul li:first-child{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navbar ul li:last-child{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    z-index: 5;
+    background-color: #ffffff;
+    width: 100vw;
+}
+.snapp-app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 420px;
+    position: relative;
+    z-index: 1;
+    top: 100px;
+}
+.snapp-app .container1{
+    background-color: rgb(33,170,88);
+}
+.container1 .content{
+    margin-right: 120px;
+    color: #ffffff;
+}
+.container1 .content h1{
+    font-size: 37px;
+}
+.container1 .content p{
+    font-size: 20.3px;
+    margin-top: 35px;
+}
+.container1 .content .send-phone-number .phone input{
+    border: none;
+    background-color: rgb(33,170,88);
+}
+.container1 .content .send-phone-number .phone input:focus{
+    outline: none;
+    color: #ffffff;
+}
+.container1 .content .send-phone-number .phone input::placeholder{
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.container1 .content .send-phone-number .send-link{
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: #00D16F;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container2{
+    background-image: url('intro_desktop.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+.send-phone-number{
+    display: flex;
+    column-gap: 18px;
+    margin-top: 30px;
+}
+.app{
+    margin-top: 18px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: rgb(33, 170, 88);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.phone i{
+    font-size: 8px;
+    color: rgb(231, 229, 229);
+}
+.phone{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+    justify-content: space-around;
+    width: 50%;
+    column-gap: 70px;
+}
+.download-app{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+.App-Store{
+    background-color: black;
+    width: 160px;
+    height: 53.47px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.android img{
+    width: 160px;
+    height: 53.47px;
+}
+.Myket img{
+    width: 160px;
+    height: 53.47px;
+}
+.web-app img{
+    width: 160px;
+    height: 53.47px;
+}
+.bazaar img{
+    width: 160px;
+    height: 53.47px;
+}
+.App-Store a{
+    text-decoration: none;
+    color:#ffffff;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+.App-Store a i{
+    font-size: 32px;
+}
+.App-Store a p{
+    font-size: 22px;
+    line-height: 18px;
+}
+.App-Store > a > p > small{
+    font-size: 12px;
+}
+.needs{
+    background-color: #F2F5F8;
+    margin-top: 80px;
+}
+.app-option-h{
+    text-align: center;
+    color: #404040;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 30px 0px 30px 0px;
+}
+.box{
+    width: 287.453px;
+    height: 90.9844px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 30px;
+    padding-bottom: 50px;
+}
+.Market img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.taxi img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.order-food img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.bike img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.pickup img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.Credit img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.Flight-Ticket img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.Flight-Ticket-F img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.Hotel img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.bus img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.train img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.shop img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.doctor img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.pharmacy img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.Insurance img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.driver-img img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.moving img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.club img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.wallet img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.pro img{
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+}
+.text{
+    margin-right: 8px;
+    line-height: 12px;
+}
+.text p{
+    color: #A3A3A3;
+    font-size: 14px;
+}
+.text h3{
+    color: #3F3f3F;
+    font-size: 16px;
+    font-weight: 700;
+}
+.link{
+    text-decoration: none;
+}
+.super-app-desc{
+    margin-top: 70px;
+    display: grid;
+    justify-items: center;
+}
+.super-app-desc .image1{
+    background-image: url("images/Market.jpg");
+    background-repeat: no-repeat;
+    width: 1075px;
+    height: 312.219px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-radius: 10px;
+    display: block;
+}
+.super-app-desc .image2{
+    background-image: url("images/Food.jpg");
+    background-repeat: no-repeat;
+    height: 312.219px;
+    width: 1075px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-radius: 10px;
+    display:none;
+}
+.super-app-desc .image3{
+    background-image: url("images/Driver.jpg");
+    background-repeat: no-repeat;
+    width: 1075px;
+    height: 312.219px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-radius: 10px;
+    display: none;
+}
+.next-prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: 52px;
+    height: 18px;
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 15px;
+    position: relative;
+    bottom: 25px;
+}
+.next-prev .Circle:last-child{
+    color: #ffffff;
+}
+.next-prev .Circle{
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.36);
+    cursor: pointer;
+}
+.super-app .image4{
+    background-image: url('./images/super-app.jpg');
+    width: 50vw;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.super-app{
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 35px;
+}
+.description p{
+    font-size: 14px;
+    line-height: 23.8px;
+    text-align: right;
+    color: rgb(64, 64, 64);
+}
+.description{
+    width: 37vw;
+}
+.description h2{
+    color: rgb(64,64,64);
+    font-size: 22.12px;
+}
+.benefits .card1{
+    background-color: rgb(242, 245, 248);
+    width: 247.703px;
+    height: 190px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -65px;
+    position: relative;
+    z-index:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits .card2{
+    background-color: rgb(242, 245, 248);
+    width: 247.703px;
+    height: 190px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -65px;
+    position: relative;
+    z-index:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits .card3{
+    background-color: rgb(242, 245, 248);
+    width: 247.703px;
+    height: 190px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -65px;
+    position: relative;
+    z-index:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.desc-benefits{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.desc-card1{
+    width: 247.703px;
+    height: 190px;
+    border: none;
+}
+.desc-card2{
+    width: 247.703px;
+    height: 190px;
+    border: none;
+}
+.desc-card3{
+    width: 247.703px;
+    height: 190px;
+    border: none;
+}
+.desc p:last-child{
+    font-size: 11.9px;
+    color: #404040;
+    line-height: 20.23px;
+}
+.desc p:first-child{
+    color: #404040;
+    font-size: 17.08px;
+    font-weight: bold;
+}
+.drivers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 245, 248);
+    margin-top: -30px;
+}
+.drivers button{
+    background-color: rgb(0, 219, 117);
+    border: none;
+    width: 170.75px;
+    height: 48px;
+    border-radius: 6px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 17.08px;
+    margin-top: 10px;
+}
+.drivers h2{
+    color: #404040;
+    font-size: 36px;
+    margin-top: 45px;
+}
+.drivers p{
+    font-size: 20.3px;
+    color: rgb(64,64,64);
+    margin-top: -10px;
+}
+.drivers video{
+    margin-top: 50px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+.benefits-drivers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 30px;
+    margin-bottom: 42px;
+}
+.box-benefit{
+    width: 485.688px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+}
+.box-benefit img{
+    width: 120px;
+    height: 66.66px;
+}
+.box-benefit .desc-box p:first-child{
+    font-size: 16px;
+    color:rgb(64,64,64);
+    font-weight: bold;
+}
+.box-benefit .desc-box p:last-child{
+    font-size: 14px;
+    color:rgb(64,64,64);
+    line-height: 23.8px;
+    width: 301.688px;
+    height: 71.4px;
+}
+.footer{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer ol li{
+    list-style-type: none;
+}
+.footer ol li a{
+    text-decoration: none;
+    color:#404040;
+}
+.footer ol{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 50px;
+}
+.icon-media{
+    display: flex;
+    column-gap: 12px;
+    margin-top: 15px;
+}
+.icon-media a i{
+    font-size: 25px;
+    color: rgb(114, 114, 114);
+}
+.namad img{
+    width: 130px;
+    height: 130px;
+}
+.namad{
+    display: flex;
+    column-gap: 15px;
+    margin: 30px 0px 60px 0px;
+}
+/*****************     JS        ***************** */
+.li-box{
+    background-color: #ffffff;
+    width: 200px;
+    height: 500px;
+    border: 1px solid #dad8d8;
+    border-radius: 10px;
+    z-index: 10;
+    position: relative;
+    top: 270px;
+    left: 695px;
+    display: flex;
+    align-items: center;
+}
+.li-box ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.li-box ul li a{
+    text-decoration: none;
+    color: #3F3F3F;
+}
+.li-box ul li a:hover{
+    color: #0ac723;
+    font-weight: bold;
+}
+.li-box-last{
+    background-color: #ffffff;
+    width: 180px;
+    height: 150px;
+    border: 1px solid #dad8d8;
+    border-radius: 10px;
+    z-index: 10;
+    position: relative;
+    top: 95px;
+    left: 160px;
+    display: flex;
+    align-items: center;
+}
+.li-box-last ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.li-box-last ul li a{
+    text-decoration: none;
+    color: #3F3F3F;
+}
+.li-box-last ul li a:hover{
+    color: #0ac723;
+    font-weight: bold;
+}
+.circles i{
+    font-size: 20px;
+    color: #36363673;
+    cursor: pointer;
+}
+.small-T{
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgba(197, 29, 29, 0.911);
+}
+
+
+
