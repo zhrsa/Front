@@ -98,7 +98,7 @@ nextPrev3.addEventListener('click' , () => {
     nextPrev1.style.color = 'rgba(255, 255, 255, 0.36)';
 });
 // check phone number
-const regularExp = /09[0-9]{9}/;
+const regularExp = /^09[0-9]{9}$/;
 const SendLinkButton = document.querySelector('.send-phone-number a');
 SendLinkButton.addEventListener('click' , () => {
     if(!regularExp.test(Input.value)){

@@ -1,5 +1,10 @@
 body , *{
-    font-family: Shabnam;
+    font-family: IRANSansWeb;
+}
+@font-face{
+    font-family: "IRANSansWeb";
+    src: 
+        url("IRANSansWeb.ttf");
 }
 body{
     margin: 0px;
@@ -17,19 +22,28 @@ body{
 }
 .navbar ul li{
     margin-left: 25px;
-    font-size: 14px;
+    font-size: 15px;
     color: #3F3F3F;
     cursor: pointer;
+    opacity: 0.8;
 }
 .navbar ul li:first-child{
     display: flex;
     align-items: center;
     column-gap: 10px;
 }
+.navbar ul li:first-child i{
+    color: rgb(63,63,63);
+    opacity: 0.5;
+}
 .navbar ul li:last-child{
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+.navbar ul li:last-child i{
+    color: rgb(63,63,63);
+    opacity: 0.5;
 }
 .navbar{
     display: flex;
@@ -39,6 +53,7 @@ body{
     z-index: 5;
     background-color: #ffffff;
     width: 100vw;
+    border-bottom: 1px solid #e4e3e3;
 }
 .snapp-app{
     display: grid;
@@ -552,7 +567,8 @@ body{
 }
 .footer ol li a{
     text-decoration: none;
-    color:#404040;
+    color: #504f4f;
+    font-weight: lighter;
 }
 .footer ol{
     display: flex;
@@ -581,13 +597,13 @@ body{
 .li-box{
     background-color: #ffffff;
     width: 200px;
-    height: 500px;
+    height: 550px;
     border: 1px solid #dad8d8;
     border-radius: 10px;
     z-index: 10;
     position: relative;
-    top: 270px;
-    left: 695px;
+    top: 300px;
+    left: 710px;
     display: flex;
     align-items: center;
 }
