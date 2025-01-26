@@ -64,6 +64,7 @@ Input.addEventListener('click' , () => {
         ci.addEventListener('click', () => {
             Input.value = null;
             smallT.textContent = null;
+            ci.replaceWith(circle);
         });
     }
 });
